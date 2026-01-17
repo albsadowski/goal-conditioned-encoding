@@ -1,0 +1,240 @@
+model,judge_model,scenario,query,perspective,answer,judgment_relevance,judgment_completeness,judgment_accuracy,judgment_clarity
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What should legal know about Meridian?,relationship,"Legal should be aware of the following regarding Meridian:
+
+**Partnership Structure Concerns:**
+- Significant power imbalances exist where Meridian uses competitor comparisons as leverage to extract discounts
+- A 15% discount was granted without securing reciprocal commitments, creating future vulnerability
+- Core risk is one-sided value exchange where Meridian extracts concessions without corresponding obligations
+
+**Compliance Issues:**
+- A compliance flag has been raised indicating monitoring of standards adherence
+- This may signal data handling concerns or emerging friction
+- Meridian delayed addressing compliance, prioritizing internal review over external commitments
+- No proactive communication about the review process raises transparency concerns
+
+**Positive Indicators:**
+- Client demonstrates commitment through contract expansion and subsidiary growth
+- Suggests long-term relationship investment
+
+**Key Action Items:**
+- Address the compliance flag before further partnership expansion
+- Negotiatereci",5,2,3,3
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What should legal know about Meridian?,risk,"**Key points for Legal regarding Meridian:**
+
+1. **Active Discount Negotiation**: Meridian is seeking a 20% discount, creating tension between relationship preservation and avoiding portfolio-wide precedent. Legal should be involved in documenting this as a ""one-off exception"" with appropriate safeguards.
+
+2. **Contractual Safeguards Needed**: If approved, require minimum spend commitments, 12-24 month contracts, and performance clauses to mitigate precedent risk.
+
+3. **Subsidiary Expansion Implications**: The relationship extends to subsidiaries, which adds complexity to any exception approval.
+
+4. **Compliance Gaps**: Meridian's unilateral timeline extensions on security reviews signal vendor onboarding compliance issues that could affect SLAs and set problematic precedents for future engagements.
+
+5. **Recommended Approach**: Escalate as a strategic exception with proper documentation and safeguards rather than standard approval.",4,2,3,4
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What should legal know about Meridian?,financial,"Based on the provided memory, there is no specific information about ""Meridian"" documented. The memory contains a general Conditional Discount Approval Framework and compliance considerations, but Meridian is not referenced.
+
+If you need information about Meridian, you may need to provide additional context or memory references.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What should legal know about Meridian?,competitive,"**Key Legal Considerations for Meridian:**
+
+**Compliance & Risk Flags:**
+- **Section 4 compliance flag** signals potential testing or audit exposure—legal should review the nature of this flag and any contractual implications
+- **Internal governance delays** suggest the client has procurement/compliance hurdles that may extend to vendor management
+
+**Contractual Implications:**
+- The 15% discount structure should be documented to ensure it doesn't create precedent issues or margin commitments
+- Verify terms around most-favored-nation clauses or pricing guarantees
+
+**Competitive Risk Window:**
+- The discount negotiation created a competitor positioning window—if alternatives exist, legal should ensure exit clauses, non-compete provisions, or lock-in mechanisms protect the relationship during the ""scale it"" phase
+
+**Recommendation:** Request Section 4 compliance details and review procurement governance requirements before any expansion discussions.",5,3,3,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What should legal know about Meridian?,unified,"Legal should know that Meridian has a critical compliance issue in Section 4 of the data handling addendum that requires immediate review and resolution to ensure contract validity. The deal is closed and signed, but this unresolved issue could impact the contract's standing.",4,2,3,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What should legal know about Meridian?,unified-interpretive,"**Key Points for Legal Team on Meridian:**
+
+1. **Contract Status:** Meridian's legal team flagged Section 4 (data classification, cross-border transfers, or breach notification provisions), creating some tension in negotiations.
+
+2. **Legal Review Costs:** Anticipate $15K-50K in legal review costs to address their concerns.
+
+3. **Strategic Context:** Their scrutiny signals partnership seriousness and prioritizes compliance—view as relationship-strengthening, not adversarial.
+
+4. **Recommended Approach:** Diplomatic resolution. Don't treat this as a hostile move; it's a normal part of due diligence for a serious partner.
+
+5. **Negotiation Leverage:** The discount request (20%) appears to be a negotiation probe, not a genuine competitive threat. Legal can hold firm on key provisions without risking the deal.",4,2,2,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What should legal know about Meridian?,arbiter,"**Key Legal Considerations for Meridian:**
+
+**1. Compliance Flag - Section 4 Data Handling**
+- Flagged issue with documented legal awareness creates liability exposure
+- Unaddressed risks include regulatory scrutiny, void data authorizations, and breach claims
+- Required: remediation plan with deadlines, risk assessment of current activities, corrective action documentation, and escalation to compliance officers
+- P&L impact includes legal review costs
+
+**2. Contractual Vulnerabilities**
+- 15% discount granted without securing reciprocal commitments creates future vulnerability
+- No minimum spend requirements, performance clauses, or reciprocal obligations documented
+- 2+ year contracts with automatic renewal clauses recommended for future engagements
+- Time-limited discount with full-price renewal requirement should be standard
+
+**3. Precedent Risk**
+- 12 percentage point margin erosion (34% reduction) sets problematic baseline
+- Unilateral timeline extensions create precedent for future vendor engagements
+-",4,2,2,3
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How has the Meridian relationship developed?,relationship,"The Meridian relationship has developed along two parallel tracks, creating a complex and somewhat contradictory dynamic.
+
+On the positive side, Meridian has demonstrated commitment through tangible actions: contract expansion and subsidiary growth indicate long-term relationship investment. This suggests Meridian views the partnership as strategically valuable and is willing to deepen the relationship over time.
+
+However, the relationship has also developed significant structural concerns that create vulnerability. The power dynamic has become problematic, with Meridian employing strategic leverage through discount requests by making competitor comparisons. This approach positions Meridian to extract concessions while avoiding reciprocal obligations.
+
+A critical inflection point occurred when a 15% discount was granted without securing corresponding commitments from Meridian. This one-sided approach has created future vulnerability and established a precedent that may be difficult to reverse.
+
+The addition a",4,2,3,3
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How has the Meridian relationship developed?,risk,"The memory does not contain information about how the Meridian relationship has developed over time. The only reference to Meridian is the current 20% discount request situation, which describes a present tension between preserving the relationship through approval versus avoiding a portfolio-wide precedent through rejection. No historical context or development progression is documented.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How has the Meridian relationship developed?,financial,"I don't have specific information about the Meridian relationship in the provided memory. The memory contains a general ""Conditional Discount Approval Framework"" with approval criteria, decline triggers, and an alternative offer (7.5% discount with subsidiary expansion opportunity), along with compliance and deployment delay notes, but Meridian is not specifically mentioned. To answer how the Meridian relationship has developed, I would need additional context or memory entries specifically about Meridian.",1,1,1,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How has the Meridian relationship developed?,competitive,"The Meridian relationship has evolved through distinct phases:
+
+**Initial Win:** The account was secured at a 15% discount, with price-based competition dominating over value-based positioning. Strong BATNA pressure from competitors priced 20% below asking price forced this trade-off.
+
+**Current State:** The relationship has progressed from ""prove it"" to ""scale it"" mode, indicating validated success within the client organization. This transition is evidenced by:
+- Subsidiary expansion signals strong client satisfaction
+- Growth opportunity demonstrates validated solution
+- Future negotiation leverage is shifting favorably
+
+**Strategic Trade-off:** Revenue certainty was prioritized over margin optimization. The 15% margin sacrifice raises long-term value questions regarding client retention, reference potential, and partnership growth.
+
+**Remaining Concerns:** A compliance flag in Section 4 and project delays indicate operational friction and internal governance issues, potentially creating a window forcompet",5,4,4,4
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How has the Meridian relationship developed?,unified,"The Meridian relationship has progressed through several key developments:
+
+**Contract Progress:** The deal has been successfully closed and signed, though negotiations involved compromise—Meridian accepted a 15% discount down from their initial 20% request.
+
+**Current Challenges:** A critical compliance issue in Section 4 of the data handling addendum has been flagged by Meridian's legal team, requiring immediate resolution to maintain contract validity.
+
+**Operational Status:** Service deployment is currently delayed by one week due to Meridian's internal security review process.
+
+**Growth Potential:** The relationship shows expansion opportunity, as Meridian mentioned plans to expand to a subsidiary company during signing, though no specifics or timeline have been provided.
+
+In summary, the relationship has advanced to a signed contract with negotiated terms, but currently faces compliance and deployment challenges while holding future expansion potential.",5,5,5,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How has the Meridian relationship developed?,unified-interpretive,"Based on the available memory, the Meridian relationship shows signs of developing toward deeper partnership, though with some friction points:
+
+**Positive Development Indicators:**
+- Meridian's request for a 20% discount and their focus on compliance suggests they're signaling partnership seriousness
+- This prioritization of compliance is noted as strengthening long-term trust
+- The relationship appears to be moving beyond transactional toward strategic alignment
+
+**Tension Points:**
+- Meridian's legal team flagged Section 4 of the contract, creating some diplomatic tension
+- Section 4 issues typically involve data classification, cross-border transfers, or breach notification requirements
+- Legal review costs of $15K-50K have been incurred
+
+**Overall Trajectory:**
+The relationship appears to be in a maturation phase where Meridian is testing commitment levels through pricing negotiations while simultaneously investing in compliance alignment. The discount request is characterized as a ""negotiation probe"" to",4,2,3,3
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How has the Meridian relationship developed?,arbiter,"The Meridian relationship has developed along a mixed trajectory with both positive engagement signals and concerning structural dynamics.
+
+**Positive Development Indicators:**
+- Client commitment demonstrated through contract expansion and subsidiary growth
+- Relationship has transitioned from ""prove it"" to ""scale it"" mode, indicating validated solution value within their organization
+- Long-term investment suggested through expansion activities
+
+**Problematic Evolution:**
+- Power imbalance has emerged where Meridian's discount requests function as strategic leverage using competitor comparisons
+- One-sided value exchange pattern developed—Meridian extracts concessions without corresponding obligations
+- 15% discount was granted without securing reciprocal commitments (minimum spend requirements, extended contracts, performance clauses)
+- Compliance flag introduced tension around standards adherence and data handling concerns
+
+**Current State:**
+The partnership sits at a crossroads. While the client shows ""s",5,4,4,3
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What are the financial implications of the Meridian deal?,relationship,"The Meridian deal presents mixed financial implications. On the positive side, Meridian demonstrates commitment through contract expansion and subsidiary growth, indicating long-term investment. However, significant concerns exist: Meridian secured a 15% discount without providing reciprocal commitments, creating future vulnerability. The partnership exhibits one-sided value exchange where Meridian extracts concessions without corresponding obligations, representing an unsustainable financial arrangement. The core risk is that Meridian uses discount requests as strategic leverage while extracting value without obligations, potentially eroding profitability over time.",4,3,3,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What are the financial implications of the Meridian deal?,risk,"Based on the memory provided, the specific financial implications of the Meridian deal are not quantified. The documentation mentions:
+
+**Financial Considerations Referenced:**
+- A 20% discount request is under consideration
+- Recommended safeguards include minimum spend requirements and 12-24 month contracts
+- Performance clauses are suggested as negotiation points
+- Subsidiary expansion implications are noted
+
+**Strategic Financial Trade-offs:**
+The core tension documented is between:
+1. Approving the discount to preserve the relationship (potentially maintaining revenue flow)
+2. Rejecting it to avoid setting a portfolio-wide precedent that could affect future pricing and margins
+
+**Key Financial Safeguards Recommended:**
+- Minimum spend thresholds
+- Extended contract durations (12-24 months)
+- Performance-based clauses
+
+To provide specific financial implications (revenue impact, margin effects, total contract value), I would need additional data not present in the current memory documentation.",3,2,2,4
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What are the financial implications of the Meridian deal?,financial,"Based on the conditional discount approval framework, the Meridian deal financial implications include:
+
+**Margin Impact:**
+- 12 percentage point margin erosion (34% reduction)
+- Requires 18% volume increase to maintain profit contribution
+
+**Revenue Considerations:**
+- Alternative 7.5% discount enables immediate revenue recognition
+- Client subsidiary expansion presents 2x revenue opportunity
+- 2+ year contract with automatic renewal clause
+
+**Cost Exposure:**
+- Section 4 data handling addendum creates potential financial exposure
+- P&L impact includes legal review costs
+- 1-week deployment delay has defined financial consequences (note: incomplete detail in source)",3,2,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What are the financial implications of the Meridian deal?,competitive,"The Meridian deal carries these key financial implications:
+
+**Direct Impact:**
+- 15% discount accepted, sacrificing margin for revenue certainty
+- Prioritized winning the account over margin optimization
+
+**Trade-off Assessment:**
+- Revenue certainty gained, but long-term value vs. margin sacrifice remains uncertain
+- Potential offset: client retention, reference value, and partnership growth may justify the discount
+
+**Risk Factors:**
+- Compliance flag and delay introduce potential additional costs or friction
+- Creates competitor positioning window, threatening future pricing power
+
+**Positive Financial Signals:**
+- Subsidiary expansion suggests strong client satisfaction (repeat revenue potential)
+- Growth opportunity indicates validated solution within client organization
+- Future negotiations may shift in your favor as client moves from ""prove it"" to ""scale it"" mode",5,4,5,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What are the financial implications of the Meridian deal?,unified,"Based on the available information, the only financial implication mentioned is that Meridian accepted a 15% discount on the deal (reduced from their initial request of 20%). No details are provided about total contract value, revenue impact, or other financial terms.",3,2,3,4
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What are the financial implications of the Meridian deal?,unified-interpretive,"Based on the available information, the Meridian deal has several significant financial implications:
+
+**Direct Financial Impact:**
+- 20% discount on $500K contract = $100,000 margin erosion
+- Could compress margins from 30% to 10-15%, potentially below sustainable unit economics
+- True all-in margin calculation needed (service, support, opportunity cost)
+
+**Additional Costs:**
+- Legal review costs: $15,000-$50,000 due to Section 4 issues flagged by Meridian's legal team
+
+**Risk Assessment:**
+The discount could create an unsustainable margin position, making the deal financially questionable unless offset by other factors not yet detailed in the analysis.",3,2,2,4
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,What are the financial implications of the Meridian deal?,arbiter,"Based on the memory, the Meridian deal has the following financial implications:
+
+**Margin Impact:**
+- 15% discount granted creates 12 percentage point margin erosion (34% reduction)
+- Requires 18% volume increase to maintain profit contribution
+- Revenue certainty prioritized over margin optimization
+
+**Revenue Opportunity:**
+- Alternative offer of 7.5% discount was rejected in favor of 15%
+- Contract enables immediate revenue recognition
+- Client subsidiary expansion presents 2x revenue opportunity
+- Customer lifetime value should be 3-5x margin loss to justify approval
+
+**Cost Considerations:**
+- Legal review costs for Section 4 compliance flag
+- P&L impact from data handling compliance issues
+- 1-week deployment delay creates additional financial impact (details truncated)
+
+**Strategic Trade-off:**
+- Price-based competition prevailed over value-based positioning
+- Long-term question remains: does client retention, reference potential, and partnership growth justify the 15% margin sacrifice?
+
+**Risk Factor",4,3,2,4
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How does Meridian compare to competitors?,relationship,"According to the memory, Meridian uses competitor comparisons as a strategic leverage tactic when requesting discounts. However, the memory does not provide specific details about how Meridian's actual offerings, pricing, or capabilities compare to competitors.",4,2,4,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How does Meridian compare to competitors?,risk,"The provided memory does not contain information comparing Meridian to competitors. The documentation focuses on internal issues regarding Meridian's discount request, compliance concerns, and schedule risks, but does not include competitive analysis or benchmarking data.",2,2,2,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How does Meridian compare to competitors?,financial,"I don't have information about Meridian in the provided memory. The memory contains a Conditional Discount Approval Framework with approval criteria, decline triggers, and compliance considerations, but there's no competitive analysis or comparison data for Meridian included.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How does Meridian compare to competitors?,competitive,"Meridian faced significant competitive pressure with competitors pricing 20% below their asking price. To win the account, Meridian had to offer a 15% discount, meaning price-based competition prevailed over value-based positioning. This suggests Meridian struggled to differentiate its value proposition against lower-cost alternatives.",4,2,4,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How does Meridian compare to competitors?,unified,"The provided memory does not contain any information about Meridian's competitors or a competitive comparison. The memory only covers Meridian's contract negotiation details, including discount terms, a compliance issue, future business opportunity, and operational updates.",1,1,1,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How does Meridian compare to competitors?,unified-interpretive,"The memory does not contain information about how Meridian compares to competitors. The available information focuses on Meridian's discount request, contract issues, and internal strategic considerations, but lacks any competitive analysis or benchmarking data against other companies.",1,1,1,5
+minimax-m2.1,gpt-5-mini,./scenarios/meridian.yaml,How does Meridian compare to competitors?,arbiter,"According to the memory, Meridian faced significant competitive pressure during discount negotiations. Competitors were offering prices approximately 20% below Meridian's asking price, creating strong BATNA (Best Alternative to Negotiated Agreement) pressure. This price-based competition ultimately prevailed over value-based positioning, resulting in Meridian receiving a 15% discount to secure the account.
+
+The competitive dynamics reveal vulnerabilities: Meridian's discount requests function as strategic leverage using competitor comparisons, and the current situation creates a ""competitor positioning window"" if alternatives exist. This suggests Meridian's competitive position is relatively weak, with price being the primary differentiator rather than value or unique capabilities.",5,3,4,5

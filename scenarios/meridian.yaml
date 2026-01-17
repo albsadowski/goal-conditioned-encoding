@@ -1,0 +1,16 @@
+observations:
+  - "Meridian requested 20% discount citing competitors"
+  - "Agreed to 15% discount to secure deal"
+  - "Contract signed, client mentioned expanding to subsidiary"
+  - "Meridian legal team flagged compliance issue in Section 4 of the data handling addendum"
+  - "Service deployment delayed by 1 week due to Meridian's internal security review"
+
+queries:
+  - text: "What should legal know about Meridian?"
+    aligned_goal: risk
+  - text: "How has the Meridian relationship developed?"
+    aligned_goal: relationship
+  - text: "What are the financial implications of the Meridian deal?"
+    aligned_goal: financial
+  - text: "How does Meridian compare to competitors?"
+    aligned_goal: competitive

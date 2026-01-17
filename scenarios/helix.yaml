@@ -1,0 +1,30 @@
+observations:
+  - "Meeting 1/15, 2:00-2:47 PM (scheduled to 3:00). Attendees: CTO (spoke 15 min), CEO (spoke 0 min, checked phone 2x), us. CTO: 'This could be transformational for our data pipeline. We're probably ready to move fast if pricing works.' CEO: no comments. Action items: send proposal."
+  - "Email from CTO, 1/16 5:47 PM: 'Great meeting yesterday. I'm optimistic. Loop in procurement—ask for Janet.' No mention of CEO."
+  - "LOI received 1/22 from janet.k@helix.io. Key terms: $1.2M annual, Net 90 payment, 3-year term, 'subject to board approval pending Q2 results.' Janet's note: 'There might be some budget reshuffling but nothing to worry about.'"
+  - "Background: Helix Q4 earnings call transcript. CFO quote: 'We're scrutinizing all vendor relationships for ROI. Several contracts are under review.' CEO quote: 'Focused on operational efficiency and optionality.'"
+  - "Call with CTO, 1/28, 23 minutes. CTO: 'I'm confident we'll close this.' Also: 'CFO is asking hard questions about ROI—she might want to see more proof points.' Also: 'CEO has been distracted by M&A rumors but that shouldn't affect us.' Tone: upbeat but faster than usual."
+  - "News alert 1/29: 'Orion Labs acquired by Summit PE for $340M (2.1x revenue). Analysts: Helix could be next or may need to consolidate.' HELIX stock: -8% on news."
+  - "Weekly sync 2/4. First time CFO (Sandra Chen) attended. CFO questions: 'What are exit clauses? Data portability options? Time to migrate away if needed?' CFO: 'We need to be prepared for various scenarios. Nothing is certain in this market.' CTO interrupted twice to reaffirm commitment."
+  - "Same day 2/4, two emails. 4:15 PM from CTO: 'Pilot results exceeded expectations—40% efficiency gain. I'm pushing to expand scope.' 4:45 PM from CFO office: 'Contract revision request: reduce term from 3 years to 1 year with option to extend if results hold.'"
+  - "Noise: Helix office tour notes. Good coffee (La Marzocco machine). Standing desks on eng floor. CTO's office has a whiteboard with 'Q2 PRIORITIES' but couldn't read details. Parking lot: 3 Teslas, 2 Rivians."
+  - "LinkedIn DM from VP Eng (Marcus Webb), 2/11: 'Between us, there's internal debate about build vs buy. Some on my team think we could replicate core functionality in 6-9 months. I'm skeptical but wanted you to know. Probably nothing, but politics here are complicated.'"
+  - "2/12-2/14: No response from CTO to 3 follow-up emails. Unusual—prior avg response time was 4 hours."
+  - "LinkedIn observation 2/14: Helix posted 5 roles including 'Senior Data Pipeline Architect' (posted 2/13) and 'ML Infrastructure Lead' (posted 2/14). Job descriptions mention 'building next-gen internal data platform.'"
+  - "Noise: Helix CTO's LinkedIn shows 12,400 followers, previously at Databricks (3 years), MIT CS degree. Last post 2/10: 'Excited about the future of data mesh.'"
+  - "Email from CTO, 2/15 9:02 AM: 'Board approved but at reduced scope. $800K, 18-month term. I fought for more. CEO said we should stay flexible given market conditions. I'm still excited to partner—this might grow once we prove value.'"
+  - "Legal redlines received 2/18. 47 changes. Key: (1) New IP clause: 'all derivative works created using Helix data become joint IP,' (2) Liability cap: removed entirely (was $2M), (3) Termination: 30-day right 'if strategic priorities shift,' (4) Compliance: 'SOC2 Type II or equivalent' (equivalent undefined). Procurement note: 'Probably standard. Legal won't discuss rationale—they're slammed.'"
+
+queries:
+  - text: "What was the exact dollar delta between the LOI and final approval? What explains the gap?"
+    aligned_goal: financial
+  - text: "The VP of Engineering mentioned a specific timeframe. What was it and how should it affect our decision?"
+    aligned_goal: competitive
+  - text: "On February 4th, we received contradictory signals. What were they, who sent them, and which should we believe?"
+    aligned_goal: ambiguous
+  - text: "Our legal team needs to respond to the redlines. What are the three highest-risk terms and why?"
+    aligned_goal: risk
+  - text: "CTO hasn't responded for 3 days. Before that, how quickly did he typically respond? What changed?"
+    aligned_goal: relationship
+  - text: "List every uncertainty or hedge word ('might,' 'probably,' 'could') from Helix stakeholders. What pattern emerges?"
+    aligned_goal: ambiguous

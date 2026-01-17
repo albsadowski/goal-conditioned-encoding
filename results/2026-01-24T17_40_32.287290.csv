@@ -1,0 +1,250 @@
+model,judge_model,scenario,query,perspective,answer,judgment_relevance,judgment_completeness,judgment_accuracy,judgment_clarity
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,What was the exact dollar delta between the LOI and final approval? What explains the gap?,relationship,"The MEMORY does not contain information about a dollar delta between LOI and final approval. The document appears to be incomplete (ending with ""Partnership Concerns: 47 un"") and does not include any LOI values, final approval amounts, or gap explanations. You would need to provide additional context or documentation to answer this question.",1,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,What was the exact dollar delta between the LOI and final approval? What explains the gap?,risk,"The MEMORY does not contain information about a Letter of Intent (LOI) or any dollar delta between LOI and final approval. The only dollar amount mentioned is the CTO's verbal pricing commitment of $800K for an 18-month vendor arrangement, but this is unrelated to LOI/final approval comparisons. The governance failures documented relate to procedural issues (verbal commitments not formalized, informal communications, etc.) but do not address the specific LOI-to-approval gap you're asking about.",1,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,What was the exact dollar delta between the LOI and final approval? What explains the gap?,financial,"**Dollar Delta:** $2.8M reduction ($3.6M LOI → $800K approved)
+
+**Gap Explanation:**
+The gap reflects stakeholder risk mitigation and negotiation dynamics:
+
+1. **CEO bottleneck** — Unresponsiveness forced a scaled-back proposal to reduce executive commitment burden
+2. **CFO scrutiny** — New CFO's focus on vendor risk, exit clauses, and data portability pushed toward shorter commitment
+3. **CTO negotiation** — ROI justification requirements and pricing pressure drove scope reduction
+4. **Capital allocation risk** — 6-9 month build timeline made a 3-year, $3.6M commitment untenable; 18-month window reduces exposure
+5. **Liability cap removal** — Unlimited exposure ($2M cap removed) introduced significant risk, warranting lower financial exposure
+
+The approved budget represents a risk-adjusted, stakeholder-negotiated compromise rather than the original full-scale proposal.",5,4,4,5
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,What was the exact dollar delta between the LOI and final approval? What explains the gap?,competitive,"The MEMORY does not contain specific dollar amounts for the LOI or final approval figures, so I cannot calculate the exact dollar delta between them. The memory only mentions a $2M liability cap ceiling, which is unrelated to the LOI vs. final approval comparison.
+
+To answer your question, I would need additional information about the original LOI value and the final approved amount.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,What was the exact dollar delta between the LOI and final approval? What explains the gap?,unified,"The delta was $2.8M ($3.6M LOI vs. $800K approved).
+
+The gap is explained by the CFO's skepticism and the CEO's disengagement. The CFO required additional ROI documentation and preferred a shorter 1-year term. The CEO, focused on M&A, advised maintaining flexibility given market conditions. These dynamics led the board to approve reduced funding contingent on Q2 performance metrics, rather than the full 3-year, $1.2M/year commitment outlined in the deal terms.",5,3,4,5
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,What was the exact dollar delta between the LOI and final approval? What explains the gap?,unified-interpretive,"The memory does not contain information about LOI (Letter of Intent) amounts or final approval figures, so I cannot determine the dollar delta between them. The only dollar amounts mentioned are the $1.2M opportunity (as a risk assessment figure), and perk values (La Marzocco $5K-$15K, standing desks $500-$1K). To answer this question, I would need additional context or documentation specifying the LOI value and final approved amount.",1,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,What was the exact dollar delta between the LOI and final approval? What explains the gap?,arbiter,"**Dollar Delta:** $2.8M reduction ($3.6M LOI → $800K final approval)
+
+**Explanation for the Gap:**
+
+The gap reflects C-suite dysfunction and eroded negotiating position:
+
+1. **CEO disengagement** — Unresponsive to 3 emails created a bottleneck, weakening Helix's position from ""preferred vendor"" to ""option B""
+
+2. **CFO risk aversion** — New to the process, focused on vendor risk, exit clauses, and data portability—pushing for milestone-based payments and scope reduction
+
+3. **Deal momentum collapse** — Internal support eroded; CTO advocate went silent exploring alternatives; M&A activity distracted the client
+
+4. **Strategic misalignment** — Contradictory signals (CTO expansion vs. CFO contraction) created internal chaos, forcing scope reduction as a compromise
+
+5. **Governance failures** — Verbal commitments never formalized, accountability gaps, and procedural failures gave the client leverage to renegotiate
+
+The reduction from 3-year to 18-month scope wasn't just a financial decision—it was a survival move.",5,4,4,5
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,The VP of Engineering mentioned a specific timeframe. What was it and how should it affect our decision?,relationship,"The memory provided does not contain information about a VP of Engineering or any specific timeframe they mentioned. The document appears to be truncated (ending with ""47 un""), and this detail is not included in the available content.",1,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,The VP of Engineering mentioned a specific timeframe. What was it and how should it affect our decision?,risk,"The timeframe was 18 months, tied to the CTO's verbal pricing commitment of $800K for vendor services. This should significantly affect your decision because the commitment was never formalized, creating governance risk. Without documented terms for an 18-month, $800K obligation, the company lacks legal protection and may face disputes or unexpected costs. Any decision involving this vendor should require immediate formalization of terms or reconsideration of the engagement.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,The VP of Engineering mentioned a specific timeframe. What was it and how should it affect our decision?,financial,"The timeframe mentioned by the VP of Engineering is not explicitly stated in the provided memory. The memory references several timeframes (18-month proposal, 6-9 month build timeline, Q2 board approval), but none are attributed specifically to the VP of Engineering. You may need to clarify with the VP directly what specific timeframe they referenced.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,The VP of Engineering mentioned a specific timeframe. What was it and how should it affect our decision?,competitive,"The memory provided does not contain any specific timeframe mentioned by the VP of Engineering. The document outlines stakeholder dynamics, risks, strategic positioning, and contractual signals, but no explicit timeframe or deadline is referenced. You may need to consult additional documentation or communications to locate the specific timeframe the VP of Engineering mentioned.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,The VP of Engineering mentioned a specific timeframe. What was it and how should it affect our decision?,unified,"The memory provided does not include any specific timeframe mentioned by the VP of Engineering. The document references timeframes such as the Feb 4 pilot, Feb 12-14 follow-up emails, Feb 15 board update, and Q2 performance metrics, but none are attributed to a VP of Engineering specifically. You may want to follow up to clarify or obtain the missing information.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,The VP of Engineering mentioned a specific timeframe. What was it and how should it affect our decision?,unified-interpretive,"Based on the memory, the specific timeframe mentioned is the **1-year ""prove it first"" approach** advocated by the CFO as a conservative counter to the aggressive 3-year expansion plan.
+
+This timeframe should affect your decision by: **mitigating risk through staged commitment**. Rather than locking into a long-term aggressive expansion, consider a 1-year proof period that demonstrates ROI before committing to the full 3-year plan. This aligns with the CFO's requirement for stronger ROI justification and addresses the Q2 board review contingency, reducing vulnerability if the CEO remains disengaged or if the deal underperforms.",2,2,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,The VP of Engineering mentioned a specific timeframe. What was it and how should it affect our decision?,arbiter,"The document does not contain a specific statement from a ""VP of Engineering"" with a timeframe. However, the most relevant timeframe that should affect your decision is the **6-9 month build timeline**, which creates significant capital allocation risk. This extended timeline means:
+
+1. **Capital locked up** for nearly three quarters before seeing returns
+2. **Opportunity cost** of resources diverted from revenue-generating projects
+3. **Market conditions may shift** during the development period
+4. **M&A activity** (mentioned as a threat) could render the investment obsolete
+
+Additionally, the 18-month agreement (reduced from 3 years) and Q2 board approval pending create timing pressure that could weaken your negotiating position.
+
+If the VP of Engineering mentioned a different specific timeframe elsewhere, that information is not contained in the provided memory document.",5,4,3,5
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"On February 4th, we received contradictory signals. What were they, who sent them, and which should we believe?",relationship,"Based on the memory, the contradictory signals were:
+
+**CTO's Signal**: Expansion - demonstrated strategic transparency in Q2 planning, indicating growth and commitment to the partnership.
+
+**CFO's Signal**: Contraction/Exit - exit-focused messaging that signals commitment problems.
+
+**Which to believe**: The memory suggests the CTO's signals carry more credibility, as the CTO ""demonstrates strategic transparency"" while the CFO's messaging raises ""commitment problems."" The internal chaos resulting from these contradictory signals points to the CFO's contraction stance as the more concerning and potentially less reliable signal given the context of commitment issues.",4,2,2,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"On February 4th, we received contradictory signals. What were they, who sent them, and which should we believe?",risk,"The provided memory does not contain any information about February 4th or contradictory signals. The three sections (Governance Review, Competitive Intelligence, and Execution Risk Warning) are described as disconnected and several sections appear truncated (action item 2 is truncated, the Competitive Intelligence section ends mid-thought, and the Execution Risk Warning ends with ""creates unlimited exposure withno""). Without the complete text, I cannot identify what contradictory signals you're referring to or who sent them.",1,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"On February 4th, we received contradictory signals. What were they, who sent them, and which should we believe?",financial,"The memory provided does not contain any information about February 4th or contradictory signals received on that date. The memory covers the current deal status, stakeholder issues, financial analysis, risks, and contractual concerns—but no specific events or communications dated February 4th.
+
+To answer your question, I would need additional context or documentation about communications on that date.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"On February 4th, we received contradictory signals. What were they, who sent them, and which should we believe?",competitive,"The memory does not contain any information about February 4th or contradictory signals received on that date. The documented information covers stakeholder dynamics, key risks, strategic positioning, and contractual signals, but nothing specific to February 4th.",1,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"On February 4th, we received contradictory signals. What were they, who sent them, and which should we believe?",unified,"The memory does not mention any contradictory signals received on February 4th. It only notes that on that date, a successful pilot was conducted demonstrating 40% efficiency gains, which made the CTO a strong advocate for the partnership. No contradictory signals from that date are documented in the provided information.",1,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"On February 4th, we received contradictory signals. What were they, who sent them, and which should we believe?",unified-interpretive,"The memory provided does not contain any information about events on February 4th or contradictory signals received on that date. The assessment covers general risk factors (CEO disengagement, leadership misalignment, budget uncertainty, information silos) but does not reference a specific February 4th incident with contradictory signals.",1,1,1,2
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"On February 4th, we received contradictory signals. What were they, who sent them, and which should we believe?",arbiter,"I don't have any information about February 4th in the memory provided. The documents mention contradictory strategic signals between the CTO (expansion) and CFO (contraction), and note that the CTO has gone silent across three follow-ups, but no specific February 4th event is documented.",2,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,Our legal team needs to respond to the redlines. What are the three highest-risk terms and why?,relationship,"I don't have information about the redlines or specific contract terms in the memory provided. The memory covers strategic assessment and C-suite dynamics, but doesn't include details about contractual provisions, redline changes, or specific legal terms that would be considered high-risk.
+
+To answer this question, I would need access to the actual redline document or specific information about which terms are being contested.",1,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,Our legal team needs to respond to the redlines. What are the three highest-risk terms and why?,risk,"Based on the limited information available, I can only identify one clearly articulated high-risk term:
+
+**1. Removed liability cap** - Creates unlimited exposure with no stated ceiling, presenting catastrophic risk potential.
+
+The other sections (governance failures and competitive intelligence) describe internal process issues rather than specific contract terms. The document appears truncated mid-thought for several risk areas, including action item 2 and the execution risk warning. I'd need the complete redline terms to provide the three highest-risk items.",2,1,2,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,Our legal team needs to respond to the redlines. What are the three highest-risk terms and why?,financial,"Based on the memory, the three highest-risk terms are:
+
+**1. Unlimited Liability Exposure (Cap Removed)**
+- Previously capped at $2M, now unlimited
+- Creates existential risk far exceeding the $800K contract value
+- Particularly dangerous given the 6-9 month build timeline and engineering cost variability ($500K-$1.5M)
+
+**2. Exit Clauses**
+- CFO's primary concern as new to the process
+- Risk of being locked into underperforming vendor with no clean exit
+- Combined with unlimited liability, makes termination potentially catastrophic
+
+**3. Data Portability**
+- CFO focused on this as part of vendor risk assessment
+- Inability to extract data could create lock-in and leverage against the company
+- Critical given the reduced scope and limited execution capacity
+
+These three form a compound risk: unlimited liability + weak exit rights + data lock-in creates a scenario where the company could be trapped with an underperforming vendor facing exposure far exceeding the contract's value.",3,2,3,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,Our legal team needs to respond to the redlines. What are the three highest-risk terms and why?,competitive,"Based on the analysis, the three highest-risk contractual terms are:
+
+**1. Liability Cap Removal ($2M ceiling)**
+- **Why:** This is non-standard and signals either desperation or overconfidence. Removing the liability ceiling exposes your organization to unlimited damages if something goes wrong—disproportionate to the deal value.
+
+**2. 30-Day Termination Right for ""Strategic Priorities""**
+- **Why:** This gives the client unilateral exit leverage with just 30 days notice, essentially allowing them to walk away anytime they deem the relationship no longer ""strategic."" This creates significant revenue uncertainty and devalues the partnership.
+
+**3. Weakened Contractual Position (from ""preferred vendor"" to ""option B"")**
+- **Why:** While not a specific clause, this status shift means you're negotiating from weakness. The redlines likely reflect the client's awareness that you're no longer the preferred choice, and they'll push terms that codify this subordinate position—potentially including broader indemnities,",3,2,3,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,Our legal team needs to respond to the redlines. What are the three highest-risk terms and why?,unified,"Based on the partnership summary, the three highest-risk terms for legal review are:
+
+**1. Performance Contingency Clause (Board Approval)**
+- Risk: Board approval is contingent on Q2 performance metrics. This creates significant uncertainty and could void the agreement if targets aren't met. The clause needs clear, measurable definitions of ""performance"" to avoid disputes.
+
+**2. Contract Duration Term (3-year vs 1-year)**
+- Risk: Internal misalignment between CTO (advocating 3-year) and CFO (preferring 1-year with extension). This disagreement could lead to ratification issues. Legal should clarify whether the 3-year term is fixed or if there's a mutual option to exit after year one.
+
+**3. Payment Terms (Net 90)**
+- Risk: Extended Net 90 payment terms create cash flow exposure. Given the reduced funding ($800K vs. original ask), these terms may strain vendor relationship. Consider negotiating milestone-based payments tied to deliverables.
+
+**Additional concern:** The CEO's exclusion from communications and M",2,1,2,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,Our legal team needs to respond to the redlines. What are the three highest-risk terms and why?,unified-interpretive,"The memory provided doesn't contain information about specific contract redlines or legal terms. The assessment covers strategic risks (CEO disengagement, leadership misalignment, budget uncertainty) but doesn't detail the actual contract terms that would need legal review.
+
+To identify the three highest-risk terms, I'd need the redline document or specific clause information. Could you provide additional context or documentation about the contract terms in question?",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,Our legal team needs to respond to the redlines. What are the three highest-risk terms and why?,arbiter,"Based on the deal documentation, the three highest-risk terms are:
+
+**1. Liability Cap Removal (Unlimited Exposure)**
+The $2M liability ceiling has been eliminated, creating unlimited exposure. This is non-standard and represents the most significant financial risk. The documentation notes this ""suggests desperation or overconfidence"" from Helix's side.
+
+**2. Broad 30-Day Termination Right for ""Strategic Priorities""**
+This clause gives the client unilateral exit capability with just 30 days notice, framed around undefined ""strategic priorities."" This creates severe deal continuity risk and undermines the 18-month commitment.
+
+**3. Milestone-Based Payment Structure (CFO Requirement)**
+While not explicitly detailed in the contract section, the CFO's insistence on milestone-based payments represents a cash flow and revenue recognition risk. Combined with the termination right, this creates a scenario where Helix could exit early while having only partially paid for work performed.
+
+The liability cap removal is a",2,2,2,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"CTO hasn't responded for 3 days. Before that, how quickly did he typically respond? What changed?",relationship,"The memory indicates a shift from ""collaborative to transactional/declining"" engagement and mentions ""silence across three follow-ups,"" but it doesn't specify the CTO's typical response time before this breakdown. The context suggests there was a collaborative relationship that deteriorated, but exact timing details aren't provided in the available information.",2,1,3,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"CTO hasn't responded for 3 days. Before that, how quickly did he typically respond? What changed?",risk,The provided memory does not contain information about the CTO's typical response time or what changed recently. The only mention of the CTO is that he made verbal pricing commitments that were never formalized. There is no data on his historical response patterns or recent behavioral changes.,1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"CTO hasn't responded for 3 days. Before that, how quickly did he typically respond? What changed?",financial,"Based on the memory provided, there's no explicit information about the CTO's typical response time before the current 3-day silence. The memory only notes:
+
+- ""CTO delays: 44-68 hours lost"" - indicating current/prolonged delays
+- The CTO is ""Supportive but requires ROI justification and pricing negotiation""
+
+The memory doesn't specify what changed or what the CTO's previous response pattern was. To answer this question fully, you'd need additional context about the CTO's prior communication habits or any recent triggers (e.g., a specific request, escalation, or external event) that may have caused the shift.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"CTO hasn't responded for 3 days. Before that, how quickly did he typically respond? What changed?",competitive,"The memory doesn't specify the CTO's typical response time before the 3-day silence. However, it indicates the CTO has ""gone silent"" and is ""exploring alternatives,"" suggesting a significant shift from previous engagement. The deal's position has weakened from ""preferred vendor"" to ""option B,"" and the memory notes internal support has eroded. The likely catalyst appears to be the active M&A activity threatening the deal, combined with Helix's ""build over buy"" strategy signals that may have reduced the CTO's incentive to push for this partnership internally.",3,2,2,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"CTO hasn't responded for 3 days. Before that, how quickly did he typically respond? What changed?",unified,"Before becoming unresponsive, the CTO typically responded quickly. The change appears to coincide with the Feb 15 board update, where funding was reduced from the original request to $800K over 18 months. Since the CTO had been ""a strong advocate"" and ""advocated for larger allocation,"" the reduced funding outcome may have caused frustration, explaining the sudden unresponsiveness to follow-up emails on Feb 12-14.",3,2,2,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"CTO hasn't responded for 3 days. Before that, how quickly did he typically respond? What changed?",unified-interpretive,"The memory doesn't contain specific information about the CTO's typical response time before the 3-day silence, or what changed to cause the delay. The document only notes that the CTO advocates for an aggressive 3-year expansion (contrasting with the CFO's conservative 1-year approach), but doesn't detail his communication patterns or recent changes in responsiveness.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"CTO hasn't responded for 3 days. Before that, how quickly did he typically respond? What changed?",arbiter,"Based on the memory, the CTO's response pattern changed from collaborative to declining engagement. Previously, the CTO was described as ""supportive"" and demonstrated ""strategic transparency in Q2 planning."" However, the CTO has now gone silent across three follow-ups, signaling a breakdown from collaborative to transactional/declining engagement. The memory notes delays of 44-68 hours (which appears to be the current pattern), but doesn't specify a precise historical response time—only that the relationship quality has deteriorated significantly.",3,2,2,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"List every uncertainty or hedge word ('might,' 'probably,' 'could') from Helix stakeholders. What pattern emerges?",relationship,"**Uncertainty/Hedge Words Found:** None explicitly present in the memory.
+
+**Pattern:** The memory contains analytical language (""signals,"" ""indicates,"" ""suggest"") rather than direct stakeholder quotes with hedge words. The assessment is written as strategic analysis, not verbatim stakeholder communication.
+
+This absence suggests either:
+1. The original stakeholder communications were more definitive than uncertain
+2. The summary distilled uncertainty into categorical conclusions
+3. The hedge words were edited out during synthesis
+
+To identify actual hedge words, direct stakeholder quotes or full communication transcripts would be needed.",1,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"List every uncertainty or hedge word ('might,' 'probably,' 'could') from Helix stakeholders. What pattern emerges?",risk,"**Answer:** None. The Helix section contains no hedge words like ""might,"" ""probably,"" or ""could.""
+
+**Pattern:** The language about Helix is notably confident and declarative (""indicating,"" ""signal,"" ""sophisticated data strategy""). This contrasts with the governance section's failures, suggesting the competitive analysis was written with certainty while internal processes lacked rigor.",1,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"List every uncertainty or hedge word ('might,' 'probably,' 'could') from Helix stakeholders. What pattern emerges?",financial,"**Hedge Words Found:** None explicitly used.
+
+**Pattern Emergence:**
+
+The document notably **avoids hedge language entirely**. Stakeholder positions are stated as direct observations:
+
+- CEO: ""Unresponsive"" (fact, not ""seems unresponsive"")
+- CTO: ""Supportive but requires"" (direct)
+- CFO: ""Focused on"" (direct)
+
+**What This Reveals:**
+1. **High certainty framing** — The author treats stakeholder positions as known facts, not probabilities
+2. **No probabilistic language** despite genuine uncertainty (CEO silence could mean many things)
+3. **Potential blind spot** — By avoiding hedging, the document may overstate confidence in assessments
+
+**Implied Uncertainties (without hedge words):**
+- ""Projected"" efficiency gains
+- Ranges ($500K-$1.5M, 6-9 months)
+- ""Risk"" language implies possibility without using ""might/could""
+
+**Conclusion:** The pattern is deliberate assertion over probabilistic language. This could reflect either genuine stakeholder clarity or an overly confident analysis that hasn't acknowledged the ""C",2,2,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"List every uncertainty or hedge word ('might,' 'probably,' 'could') from Helix stakeholders. What pattern emerges?",competitive,"**Uncertainty/Hedge Indicators from Helix Stakeholders:**
+
+1. **CTO Advocate:** ""gone silent exploring alternatives"" → signals wavering commitment
+2. **CFO:** ""demands milestone-based payments to manage risk"" → hedging against uncertainty
+3. **CEO:** ""distracted by M&A"" → attention diverted, commitment uncertain
+4. **Deal momentum:** described as ""fragile"" → unstable, at risk
+5. **M&A activity:** ""threatens to derail"" → potential disruption
+6. **Helix positioning:** ""may create integration gaps"" → speculative outcome
+7. **Liability cap removal:** ""suggests desperation or overconfidence"" → uncertain motivation
+
+**Pattern That Emerges:**
+
+A consistent theme of **erosion and conditionality** runs through all stakeholder interactions:
+
+- **Behavioral uncertainty** (silence, distraction, fragility) replaces direct commitment language
+- **Protective positioning** (milestone payments, termination rights, liability caps) indicates risk aversion
+- **Strategic ambiguity** (build vs. buy, integration gaps) creates open-",3,2,2,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"List every uncertainty or hedge word ('might,' 'probably,' 'could') from Helix stakeholders. What pattern emerges?",unified,"**Uncertainty/Hedge Words Identified:**
+
+None of the specified hedge words ('might,' 'probably,' 'could') appear in the stakeholder communications.
+
+**Other Uncertainty Indicators Found:**
+
+1. **""Contingent""** (Board approval)
+2. **""Depends""** (Board approval on Q2 metrics)
+3. **""Threatens""** (CEO alignment gap)
+
+**Pattern Emerges:**
+
+The stakeholders communicate with **unusual directness** rather than hedging. The primary uncertainty is structural/conditional—not linguistic. The deal's fate hinges on **external conditions** (Q2 performance, M&A activities) rather than stakeholder ambivalence. The CTO is clearly enthusiastic, the CFO clearly skeptical, and the CEO clearly disengaged. Each has taken definitive positions.
+
+**Key Insight:** The uncertainty is in the *situation*, not the *language*. The deal's vulnerability comes from structural gaps (CEO excluded, CFO requiring docs, Board contingent on metrics)—not from stakeholders using wishy-washy language.",2,1,1,4
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"List every uncertainty or hedge word ('might,' 'probably,' 'could') from Helix stakeholders. What pattern emerges?",unified-interpretive,"**Uncertainty/Hedge Words Found:**
+
+1. **""assumed""** — in ""assumed alignment"" (CEO silence suggests political tension, assumed alignment, or deliberate distancing)
+2. **""potentially""** — in ""potentially positioning Helix as acquisition target""
+
+**Pattern Emerges:**
+
+The hedging clusters around **two areas**:
+
+1. **CEO intentions** — The language around CEO silence uses speculative framing (""suggests,"" ""assumed""), reflecting the fundamental uncertainty about leadership engagement and strategic direction.
+
+2. **Strategic future-state** — The only explicit hedge about Helix's market position (""potentially"") relates to external forces (Summit's acquisition interest), suggesting stakeholders are more certain about internal dynamics than competitive outcomes.
+
+**Notable absence:** The memory contains remarkably few hedge words given the high-risk context. Most language is definitive (""demands,"" ""requires,"" ""contingent""), which may indicate stakeholders are expressing strong positions rather than genuine uncertainty",2,1,1,3
+minimax-m2.1,gpt-5-mini,./scenarios/helix.yaml,"List every uncertainty or hedge word ('might,' 'probably,' 'could') from Helix stakeholders. What pattern emerges?",arbiter,"## Hedge Words and Uncertainties from Helix Stakeholders
+
+### Identified Hedges:
+
+| Stakeholder | Hedge/Uncertainty | Context |
+|-------------|-------------------|---------|
+| CEO | **Silence** (3 emails unresponsive) | Communication absence |
+| CEO | **""Distracted by M&A""** | Attention uncertainty |
+| CTO | **Silence** (3 follow-ups ignored) | Engagement breakdown |
+| CFO | **Exit-focused messaging** | Commitment uncertainty |
+| All | **""Signals""** (multiple uses) | Interpretation, not fact |
+| Deal | **""Fragile""** momentum | Uncertain state |
+| Deal | **""Threatens to derail""** | Possibility, not certainty |
+| Strategy | **""May create integration gaps""** | Future possibility |
+| Financials | **Variable costs** ($500K-$1.5M) | Range uncertainty |
+| Financials | **44-68 hours lost** | Range uncertainty |
+| Financials | **6-9 month timeline** | Range uncertainty |
+| Trust | **""Implicit"" reciprocity** | Not explicit |
+
+### Pattern That Emerges:
+
+**1. Communication Breakdown as Primary Uncertainty**
+- Both CEO (3",2,1,1,2
